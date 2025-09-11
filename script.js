@@ -4,7 +4,7 @@ function fact(n){     //declaring a function 'fact' with parameter n
   if(n === 1 || n === 0)  // if 'n' is equal to 0 or 1 , return factorial as 1 
     return 1;  // (factorial of 0 and 1 = 1)
   else
-    return n * fact(n-1);   // calling the function recursively to find the factorial of 'n'
+    return BigInt * fact(n-1);   // calling the function recursively to find the factorial of 'n'
   // fact(3) = fact(3-1)
   // fact(2) = fact(2-1)
   // fact(1) = 1
